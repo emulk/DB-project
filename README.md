@@ -1,4 +1,4 @@
-DB-projekt
+DB-project
 ==========
 
 Il progetto di database
