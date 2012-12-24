@@ -1,0 +1,477 @@
+[
+   {
+      "id":"447",
+      "lat":"44.5202708",
+      "lng":"11.2943895999999",
+      "indirizzo":"Bologna (BO), Via Del Triumvirato",
+      "gr1":"1",
+      "dettagli":"Installata nel parcheggio 'P1', a piano terra, a breve distanza dal Terminal principale - può offrire uno o due punti di ricarica per una potenza massima erogabile di 4 kW - garantisce fornitura di energia 24 ore su 24.",
+      "costruttore":"Giulio Barbieri Spa",
+      "gestore":""
+   },
+   {
+      "id":"191",
+      "lat":"44.5090092526173",
+      "lng":"11.3406603507874",
+      "indirizzo":"Bologna (BO), Via Aristotile Fioravanti",
+      "gr1":"0",
+      "dettagli":"Angolo via Tiarini",
+      "costruttore":"",
+      "gestore":"Enel"
+   },
+   {
+      "id":"193",
+      "lat":"44.355525",
+      "lng":"11.707358",
+      "indirizzo":"Imola (BO), Viale Caterina Sforza",
+      "gr1":"0",
+      "dettagli":"Sulla curva che gira intorno al parcheggio",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"194",
+      "lat":"44.5091594",
+      "lng":"11.3625823",
+      "indirizzo":"Bologna (BO), Viale Aldo Moro",
+      "gr1":"0",
+      "dettagli":"Nella sede della Regione Emilia-Romagna",
+      "costruttore":"",
+      "gestore":""
+   },
+   {
+      "id":"249",
+      "lat":"44.356756",
+      "lng":"11.7180605",
+      "indirizzo":"Imola (BO), Via Mentana",
+      "gr1":"0",
+      "dettagli":"Parcheggio pubblico nel angolo",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"255",
+      "lat":"44.529",
+      "lng":"11.42039",
+      "indirizzo":"Quarto Inferiore (BO), Via San Donato",
+      "gr1":"0",
+      "dettagli":"Di fronte concessionaria Renault Autec(ad uso esclusivo della concessionaria)",
+      "costruttore":"",
+      "gestore":"Enel"
+   },
+   {
+      "id":"291",
+      "lat":"44.359997",
+      "lng":"11.719758",
+      "indirizzo":"Imola (BO), Piazza Alessandro Bianconcini",
+      "gr1":"0",
+      "dettagli":"Segnalata di Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"292",
+      "lat":"44.347442",
+      "lng":"11.715598",
+      "indirizzo":"Imola (BO), Via Amedeo Tabanelli",
+      "gr1":"0",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"293",
+      "lat":"44.357353",
+      "lng":"11.716578",
+      "indirizzo":"Imola (BO), Via Aspromonte",
+      "gr1":"1",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"294",
+      "lat":"44.362775",
+      "lng":"11.69051",
+      "indirizzo":"Imola (BO), Via Belvedere",
+      "gr1":"1",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"295",
+      "lat":"44.3716726",
+      "lng":"11.7044098",
+      "indirizzo":"Imola (BO), Via Casalegno",
+      "gr1":"1",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"296",
+      "lat":"44.372722",
+      "lng":"11.723088",
+      "indirizzo":"Imola (BO), Via Ruggiero Grieco",
+      "gr1":"0",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"297",
+      "lat":"44.356971",
+      "lng":"11.717129",
+      "indirizzo":"Imola (BO), Viale Andrea Costa",
+      "gr1":"1",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"298",
+      "lat":"44.3528337",
+      "lng":"11.7087493",
+      "indirizzo":"Imola (BO), Viale Aurelio Saffi",
+      "gr1":"0",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"299",
+      "lat":"44.361207",
+      "lng":"11.720232",
+      "indirizzo":"Imola (BO), Via Cogne",
+      "gr1":"0",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"370",
+      "lat":"44.359848",
+      "lng":"11.6930156999999",
+      "indirizzo":"Imola (BO), Via Pola",
+      "gr1":"1",
+      "dettagli":"1 colonnina",
+      "costruttore":"",
+      "gestore":""
+   },
+
+   {
+      "id":"433",
+      "lat":"44.8053207",
+      "lng":"11.5848095",
+      "indirizzo":"Ferrara (FE), Via Bologna",
+      "gr1":"0",
+      "dettagli":"All'interno della concessionaria Renault FRANCIOSI srl - solo per clienti con auto RENAULT anche se non acquistate da loro.Altre marche no. ",
+      "costruttore":"",
+      "gestore":""
+   },
+
+   {
+      "id":"192",
+      "lat":"44.6484037",
+      "lng":"10.9284772999999",
+      "indirizzo":"Modena (MO), Piazza Roma",
+      "gr1":"0",
+      "dettagli":"In piazza. Fonte: http:\/\/www.mobiliter.eu\/wcm\/mobiliter\/news\/2011\/set\/elettrico_2.htm",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"223",
+      "lat":"44.6571494",
+      "lng":"10.9290874000001",
+      "indirizzo":"Modena (MO), Via Manfredo Fanti",
+      "gr1":"0",
+      "dettagli":"Nel parcheggio della stazione dei treni",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"224",
+      "lat":"44.6503658",
+      "lng":"10.9234901",
+      "indirizzo":"Modena (MO), Parco Novi Sad",
+      "gr1":"0",
+      "dettagli":"Nel parcheggio di Parco Novi Sad",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"225",
+      "lat":"44.6482598",
+      "lng":"10.8616728",
+      "indirizzo":"Modena (MO), Via Emilia Ovest",
+      "gr1":"0",
+      "dettagli":"In via Emilia Ovest nei pressi di parco Enzo Ferrari",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"226",
+      "lat":"44.6515166",
+      "lng":"10.9415203",
+      "indirizzo":"Modena (MO), Viale Ciro Medettagliti",
+      "gr1":"0",
+      "dettagli":"In via Ciro Medettagliti nei pressi dell'ex mercato ortofrutticolo",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"227",
+      "lat":"44.6349256",
+      "lng":"10.9309614",
+      "indirizzo":"Modena (MO), Piazza Alessandro Manzoni",
+      "gr1":"0",
+      "dettagli":"In Piazza Manzoni",
+      "costruttore":"",
+      "gestore":""
+   },
+   {
+      "id":"228",
+      "lat":"44.6380183992928",
+      "lng":"10.9420368687867",
+      "indirizzo":"Modena (MO), Via Del Pozzo",
+      "gr1":"0",
+      "dettagli":"Nel parcheggio del Policlinico",
+      "costruttore":"",
+      "gestore":""
+   },
+   {
+      "id":"229",
+      "lat":"44.6305372",
+      "lng":"10.9505701",
+      "indirizzo":"Modena (MO), Via Glauco Gottardi",
+      "gr1":"0",
+      "dettagli":"Nel parcheggio scambiatore dell'area universitaria",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"230",
+      "lat":"44.6445331",
+      "lng":"10.9549736",
+      "indirizzo":"Modena (MO), Viale Dello Sport",
+      "gr1":"0",
+      "dettagli":"Nei pressi del Palasport CasaModena",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"231",
+      "lat":"44.6583228",
+      "lng":"10.9164322",
+      "indirizzo":"Modena (MO), Via Cesare Razzaboni",
+      "gr1":"0",
+      "dettagli":"Proprio all'ingresso della sede e dello sportello clienti Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"288",
+      "lat":"44.6362495",
+      "lng":"10.9393095",
+      "indirizzo":"Modena (MO), Viale Marzabotto",
+      "gr1":"1",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"289",
+      "lat":"44.6362495",
+      "lng":"10.9393095",
+      "indirizzo":"Modena (MO), Viale Marzabotto",
+      "gr1":"1",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"290",
+      "lat":"44.6488317",
+      "lng":"10.920205",
+      "indirizzo":"Modena (MO), Viale Berengario Jacopo",
+      "gr1":"1",
+      "dettagli":"Segnalata da Hera",
+      "costruttore":"",
+      "gestore":"Hera"
+   },
+   {
+      "id":"369",
+      "lat":"44.6538425",
+      "lng":"10.9310661",
+      "indirizzo":"Modena (MO), Piazza Dante Alighieri",
+      "gr1":"1",
+      "dettagli":"Nei pressi della stazione ferroviaria",
+      "costruttore":"",
+      "gestore":""
+   },
+
+   {
+      "id":"265",
+      "lat":"45.0539077",
+      "lng":"9.69528279999997",
+      "indirizzo":"Piacenza (PC), Via Camillo Cavour",
+      "gr1":"1",
+      "dettagli":"Vicino a parcheggi a striscie blu",
+      "costruttore":"",
+      "gestore":"Enel"
+   },
+   {
+      "id":"321",
+      "lat":"45.0540261",
+      "lng":"9.69545900000003",
+      "indirizzo":"Piacenza (PC), Via Camillo Benso Cavour",
+      "gr1":"1",
+      "dettagli":"Segnalata da Enel",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"322",
+      "lat":"45.044065",
+      "lng":"9.70427500000005",
+      "indirizzo":"Piacenza (PC), Via C. Calciati",
+      "gr1":"1",
+      "dettagli":"Segnalata da Enel",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+
+   {
+      "id":"300",
+      "lat":"44.6974299",
+      "lng":"10.6363127",
+      "indirizzo":"Reggio Emilia (RE), Piazza Del Tricolore 73PX",
+      "gr1":"0",
+      "dettagli":"Segnalata da Enel",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"301",
+      "lat":"44.6974299",
+      "lng":"10.6363127",
+      "indirizzo":"Reggio Emilia (RE), Piasa Dal Popol Giost",
+      "gr1":"1",
+      "dettagli":"Segnalata da Enel",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"302",
+      "lat":"44.700365",
+      "lng":"10.643151",
+      "indirizzo":"Reggio Emilia (RE), Piazzale Europa",
+      "gr1":"0",
+      "dettagli":" 2 colonnine",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"303",
+      "lat":"44.6958224",
+      "lng":"10.637503",
+      "indirizzo":"Reggio Emilia (RE), Via Giorgione",
+      "gr1":"1",
+      "dettagli":"Segnalata da Enel",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"304",
+      "lat":"44.761513",
+      "lng":"10.674442",
+      "indirizzo":"Bagnolo In Piano (RE), Via Guglielmo Marconi",
+      "gr1":"0",
+      "dettagli":"2 colonnine",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"305",
+      "lat":"44.6919178",
+      "lng":"10.6350543",
+      "indirizzo":"Reggio Emilia (RE), Via Nobili",
+      "gr1":"1",
+      "dettagli":"Segnalata da Enel",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"306",
+      "lat":"44.7404085",
+      "lng":"10.6025844000001",
+      "indirizzo":"Reggio Emilia (RE), Via Alberto Pansa 119PX",
+      "gr1":"1",
+      "dettagli":"Segnalata da Enel",
+      "costruttore":"",
+      "gestore":"Enel Distribuzione"
+   },
+   {
+      "id":"426",
+      "lat":"44.6973043960399",
+      "lng":"10.6425724100648",
+      "indirizzo":"Reggio Emilia (RE), Via Eritrea",
+      "gr1":"0",
+      "dettagli":"Le DUE colonnine si trovano nel parcheggio nei pressi della rotonda, dall'altra parte della strada davanti a McDonald. gli ingressi per accedere al parcheggio riservato alle auto elettriche è un po' stretto, a causa delle protezioni installare per le colonnine. ",
+      "costruttore":"",
+      "gestore":"Enel"
+   },
+   {
+      "id":"422",
+      "lat":"44.7008693842591",
+      "lng":"10.6320767158692",
+      "indirizzo":"Reggio Emilia (RE), Viale Nobili",
+      "gr1":"0",
+      "dettagli":"Venendo da viale isonzo, risalire viale nobili, passare il varco elettronico. il punto di ricarica è situato sulla destra ed è riservato ai soli veicoli elettrici.la posizione è correttamente indicata.",
+      "costruttore":"",
+      "gestore":"Enel"
+   },
+   {
+      "id":"428",
+      "lat":"44.6998250043043",
+      "lng":"10.6265352079346",
+      "indirizzo":"Reggio Emilia (RE), Piazza Gioberti",
+      "gr1":"0",
+      "dettagli":"Le DUE colonnine sono situate davanti alla tabaccheria.",
+      "costruttore":"Enel",
+      "gestore":"Enel"
+   },
+   {
+      "id":"435",
+      "lat":"44.6951755",
+      "lng":"10.637203",
+      "indirizzo":"Reggio Emilia (RE), Via San Martino",
+      "gr1":"0",
+      "dettagli":"Angolo via San Martino e via Giorgione, davanti alla Carisbo",
+      "costruttore":"Enel",
+      "gestore":"Enel"
+   },
+   {
+      "id":"436",
+      "lat":"44.6981095342531",
+      "lng":"10.6310569404754",
+      "indirizzo":"Reggio Emilia (RE), Via Vittorio Veneto",
+      "gr1":"0",
+      "dettagli":"Appena dopo il portico di via vittorio veneto. si trova sulla destra avendo la banca (unicredit) alle proprie spalle.",
+      "costruttore":"Enel",
+      "gestore":"Enel"
+   },
+
+   {
+      "id":"287",
+      "lat":"44.0707264",
+      "lng":"12.5764555000001",
+      "indirizzo":"Rimini (RN), Viale Beccadelli",
+      "gr1":"0",
+      "dettagli":"Segnalata da eneldrive",
+      "costruttore":"",
+      "gestore":"Enel"
+   }
+]

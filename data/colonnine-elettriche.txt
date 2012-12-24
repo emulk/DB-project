@@ -1,0 +1,16 @@
+Marker per provincia con contatore
+http://www.colonnineelettriche.it/services/maps.php?op=get&m=2&g1=0
+
+Marker per provincia individuali (notare parametro z)
+http://www.colonnineelettriche.it/services/maps.php?op=get&m=3&z=BO&g1=0
+
+
+PARAMETRI:
+
+m: stabilisce il livello di dettaglio della mappa (es. 2=province con contatore, 3=provincia con marker individuali)
+
+z: provincia di interesse
+
+g1: ??
+
+op: operazione da effettuare
