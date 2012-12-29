@@ -1,0 +1,11 @@
+Si vuole realizzare una base di dati per un'applicazione mobile dedicata a chi fa uso di veicoli elettrici. A tale scopo è necessario rappresentare i modelli di veicoli elettrici attualmente in commercio in Italia, le colonnine elettriche disponibili sul territorio (per ora solo nella regione Emilia-Romagna) e i concessionari.
+
+Per i veicoli elettrici si vogliono rappresentare produttore, tipo (berlina, utilitaria ecc.), anno di produzione, lunghezza, larghezza, altezza, motore e batteria montati e un'immagine del modello. Per il motore si desidera rappresentare emissioni, potenza (in kw), propulsione, coppia e velocità massima (in km/h) mentre per la batteria si desidera rappresentare capacità, costo noleggio, tempo di ricarica (in ore).
+
+____ DA rivedere! ____
+
+Per le colonnine elettriche si vogliono rappresentare coordinate GPS, indirizzo, costruttore, gestore ed eventuali dettagli riguardanti punti di riferimento nelle vicinanze o manutenzioni straordinarie (si pensi ai feedback degli utenti).
+
+Per i concessionari si vogliono rappresentare nome, indirizzo, coordinate GPS, sito internet, telefono e un catalogo delle auto in vendita (ricollegandosi ai dati di cui sopra).
+
+Inoltre c'è la necessità di memorizzare gli utenti che hanno creato un account personale per l'utilizzo di tutte le feature dell'applicazione. Di tali utenti, in fase di registrazione, devono essere memorizzati nome, indirizzo email e, se possibile, il veicolo elettrico posseduto. Ad ogni login l'utente potrà comunicare all'applicazione la propria posizione GPS in modo da migliorare la ricerca di colonnine e/o concessionari. Ogni utente potrà recensire un particolare veicolo da egli provato. 
