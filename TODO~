@@ -1,0 +1,21 @@
+- chiavi primarie e foreign
+- motore e batteria non sono due entita', integrare in veicolo
+- veicolo-vendita 0,N
+- no mail, inserire fax per i concessionari
+- Mettere nelle ambiguita' la data delle recensioni/segnalazioni (che formato?)
+
+
+Chiavi primarie (nello schema):
+	Veicoli: nome
+	Concessionario: nome+lat+long
+	Utente: email
+	Colonnina: lat+long
+	Recensione: veicolo+utente+data
+	Segnalazione: 
+
+
+
+
+
+
+

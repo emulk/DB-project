@@ -1,0 +1,77 @@
+Java diagrammi ER v1.3 di Alessandro Ballini.
+
+WEB: http://iniball.altervista.org/Software/ProgER
+Bug ed Informazioni: al.ballini@libero.it
+
+Per le notizie aggiornate le le nuove versioni visitare il sito web.
+Per una breve guida ed altre informazioni nel programma menu Informazioni.
+
+Leggi il file /License/license.txt
+
+
+
+
+
+
+
+Versioni:
+
+-1.3 (29/1/2005)
+Aggiunta la visualizzazione degli Attributi delle Relazioni.
+I nuovi oggetti ora vengono aggiunti nell'area visibile del pannello di disegno. 
+Aggiunta operazione per Fissare contemporaneamente tutti gli oggetti dello schema.
+Aggiunta operazione per Sbloccare contemporaneamente tutti gli oggetti dello schema.
+Aggiunta la possibilità di creare le varie tipologie di relazioni dal menuRelazione
+	(3 tipologie: orizzontale, verticale ed a croce) 
+Aggiunta la possibilità di bloccare le Entità (togliere il rettangolino blu di
+	ridimensionamento per non permettere di cambiare dimensione).
+Riorganizzazione delle operazioni dei tasti del mouse (ora standard).
+Aggiornamento grafica (piccoli aggiornamenti in Windows, consistenti in Linux e MacOS(nuovo Look&Feel)).
+Rimozione bugs generalizzazioni.
+Eliminazione del doppio formalismo.
+
+-1.2 (20/9/2004)
+Aggiunta di un secondo modello di descrizione dello schemaER.
+Differenze nella visulizzazione dei costrutti.
+
+-1.12 (3/6/2004)
+Corretto bug che si presentava sul salvataggio in alcune configurazioni delle generalizzazioni
+(un ringraziamento ad Chiara M. ;-) ) [bug presente dalla ver 1.1]
+
+-1.11 (1/6/2004)
+Modifiche nella gestione del nome del progetto, del salvataggio e degli avvisi.
+Risolte alcune imperfezioni di visualizzazione presenti con alcune jvm.
+
+
+-1.1 (17/5/2004)
+Ricostruzione delle generalizzazioni nello stile delle relazioni presenti nelle versioni 1.0x
+	+ possibilita' di collegare fino a quattro figli
+	+ possibilita' di creare infiniti snodi sui rami
+
+
+-1.0c (5/5/2004)
+Alcuni miglioramenti grafici e sulla gestione del salvataggio dello schema ER.
+
+
+-1.0 (1/5/2004)
+Ricostruzione delle relazioni in un nuovo formato: 
+	+ possibilita' di creare relazioni binarie, ternarie, quaternarie.
+	+ ridimensionamento del rombo
+	+ possibilita' di creare infiniti snodi sui rami
+
+
+-0.82 (18/5/2004) 
+Risolti alcuni bug sul caricamento da file della versione 0.8.
+
+
+-0.8 (12/4/2004)
+Novita' sulle entita':
+	+ possibilita' di ridimensionare le entita'
+Novita' sugli attributi
+	+ possibilita' di ridimensionare gli attributi
+
+
+-0.5 (1/7/2003)
+Prima versione di Java Diagrammi ER
+
+
