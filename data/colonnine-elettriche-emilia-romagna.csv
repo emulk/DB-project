@@ -1,48 +1,48 @@
-"id","lat","lng","indirizzo","gr1","dettagli","costruttore","gestore"
-"447","44.5202708","11.2943895999999","Bologna (BO), Via Del Triumvirato","1","Installata nel parcheggio 'P1', a piano terra, a breve distanza dal Terminal principale - può offrire uno o due punti di ricarica per una potenza massima erogabile di 4 kW - garantisce fornitura di energia 24 ore su 24.","Giulio Barbieri Spa",""
-"191","44.5090092526173","11.3406603507874","Bologna (BO), Via Aristotile Fioravanti","0","Angolo via Tiarini","","Enel"
-"193","44.355525","11.707358","Imola (BO), Viale Caterina Sforza","0","Sulla curva che gira intorno al parcheggio","","Hera"
-"194","44.5091594","11.3625823","Bologna (BO), Viale Aldo Moro","0","Nella sede della Regione Emilia-Romagna","",""
-"249","44.356756","11.7180605","Imola (BO), Via Mentana","0","Parcheggio pubblico nel angolo","","Hera"
-"255","44.529","11.42039","Quarto Inferiore (BO), Via San Donato","0","Di fronte concessionaria Renault Autec(ad uso esclusivo della concessionaria)","","Enel"
-"291","44.359997","11.719758","Imola (BO), Piazza Alessandro Bianconcini","0","Segnalata di Hera","","Hera"
-"292","44.347442","11.715598","Imola (BO), Via Amedeo Tabanelli","0","Segnalata da Hera","","Hera"
-"293","44.357353","11.716578","Imola (BO), Via Aspromonte","1","Segnalata da Hera","","Hera"
-"294","44.362775","11.69051","Imola (BO), Via Belvedere","1","Segnalata da Hera","","Hera"
-"295","44.3716726","11.7044098","Imola (BO), Via Casalegno","1","Segnalata da Hera","","Hera"
-"296","44.372722","11.723088","Imola (BO), Via Ruggiero Grieco","0","Segnalata da Hera","","Hera"
-"297","44.356971","11.717129","Imola (BO), Viale Andrea Costa","1","Segnalata da Hera","","Hera"
-"298","44.3528337","11.7087493","Imola (BO), Viale Aurelio Saffi","0","Segnalata da Hera","","Hera"
-"299","44.361207","11.720232","Imola (BO), Via Cogne","0","Segnalata da Hera","","Hera"
-"370","44.359848","11.6930156999999","Imola (BO), Via Pola","1","1 colonnina","",""
-"433","44.8053207","11.5848095","Ferrara (FE), Via Bologna","0","All'interno della concessionaria Renault FRANCIOSI srl - solo per clienti con auto RENAULT anche se non acquistate da loro.Altre marche no. ","",""
-"192","44.6484037","10.9284772999999","Modena (MO), Piazza Roma","0","In piazza. Fonte: http://www.mobiliter.eu/wcm/mobiliter/news/2011/set/elettrico_2.htm","","Hera"
-"223","44.6571494","10.9290874000001","Modena (MO), Via Manfredo Fanti","0","Nel parcheggio della stazione dei treni","","Hera"
-"224","44.6503658","10.9234901","Modena (MO), Parco Novi Sad","0","Nel parcheggio di Parco Novi Sad","","Hera"
-"225","44.6482598","10.8616728","Modena (MO), Via Emilia Ovest","0","In via Emilia Ovest nei pressi di parco Enzo Ferrari","","Hera"
-"226","44.6515166","10.9415203","Modena (MO), Viale Ciro Medettagliti","0","In via Ciro Medettagliti nei pressi dell'ex mercato ortofrutticolo","","Hera"
-"227","44.6349256","10.9309614","Modena (MO), Piazza Alessandro Manzoni","0","In Piazza Manzoni","",""
-"228","44.6380183992928","10.9420368687867","Modena (MO), Via Del Pozzo","0","Nel parcheggio del Policlinico","",""
-"229","44.6305372","10.9505701","Modena (MO), Via Glauco Gottardi","0","Nel parcheggio scambiatore dell'area universitaria","","Hera"
-"230","44.6445331","10.9549736","Modena (MO), Viale Dello Sport","0","Nei pressi del Palasport CasaModena","","Hera"
-"231","44.6583228","10.9164322","Modena (MO), Via Cesare Razzaboni","0","Proprio all'ingresso della sede e dello sportello clienti Hera","","Hera"
-"288","44.6362495","10.9393095","Modena (MO), Viale Marzabotto","1","Segnalata da Hera","","Hera"
-"289","44.6362495","10.9393095","Modena (MO), Viale Marzabotto","1","Segnalata da Hera","","Hera"
-"290","44.6488317","10.920205","Modena (MO), Viale Berengario Jacopo","1","Segnalata da Hera","","Hera"
-"369","44.6538425","10.9310661","Modena (MO), Piazza Dante Alighieri","1","Nei pressi della stazione ferroviaria","",""
-"265","45.0539077","9.69528279999997","Piacenza (PC), Via Camillo Cavour","1","Vicino a parcheggi a striscie blu","","Enel"
-"321","45.0540261","9.69545900000003","Piacenza (PC), Via Camillo Benso Cavour","1","Segnalata da Enel","","Enel Distribuzione"
-"322","45.044065","9.70427500000005","Piacenza (PC), Via C. Calciati","1","Segnalata da Enel","","Enel Distribuzione"
-"300","44.6974299","10.6363127","Reggio Emilia (RE), Piazza Del Tricolore 73PX","0","Segnalata da Enel","","Enel Distribuzione"
-"301","44.6974299","10.6363127","Reggio Emilia (RE), Piasa Dal Popol Giost","1","Segnalata da Enel","","Enel Distribuzione"
-"302","44.700365","10.643151","Reggio Emilia (RE), Piazzale Europa","0"," 2 colonnine","","Enel Distribuzione"
-"303","44.6958224","10.637503","Reggio Emilia (RE), Via Giorgione","1","Segnalata da Enel","","Enel Distribuzione"
-"304","44.761513","10.674442","Bagnolo In Piano (RE), Via Guglielmo Marconi","0","2 colonnine","","Enel Distribuzione"
-"305","44.6919178","10.6350543","Reggio Emilia (RE), Via Nobili","1","Segnalata da Enel","","Enel Distribuzione"
-"306","44.7404085","10.6025844000001","Reggio Emilia (RE), Via Alberto Pansa 119PX","1","Segnalata da Enel","","Enel Distribuzione"
-"426","44.6973043960399","10.6425724100648","Reggio Emilia (RE), Via Eritrea","0","Le DUE colonnine si trovano nel parcheggio nei pressi della rotonda, dall'altra parte della strada davanti a McDonald. gli ingressi per accedere al parcheggio riservato alle auto elettriche è un po' stretto, a causa delle protezioni installare per le colonnine. ","","Enel"
-"422","44.7008693842591","10.6320767158692","Reggio Emilia (RE), Viale Nobili","0","Venendo da viale isonzo, risalire viale nobili, passare il varco elettronico. il punto di ricarica è situato sulla destra ed è riservato ai soli veicoli elettrici.la posizione è correttamente indicata.","","Enel"
-"428","44.6998250043043","10.6265352079346","Reggio Emilia (RE), Piazza Gioberti","0","Le DUE colonnine sono situate davanti alla tabaccheria.","Enel","Enel"
-"435","44.6951755","10.637203","Reggio Emilia (RE), Via San Martino","0","Angolo via San Martino e via Giorgione, davanti alla Carisbo","Enel","Enel"
-"436","44.6981095342531","10.6310569404754","Reggio Emilia (RE), Via Vittorio Veneto","0","Appena dopo il portico di via vittorio veneto. si trova sulla destra avendo la banca (unicredit) alle proprie spalle.","Enel","Enel"
-"287","44.0707264","12.5764555000001","Rimini (RN), Viale Beccadelli","0","Segnalata da eneldrive","","Enel"
+(id,lat,lng,costruttore,civico,comune,provincia,costruttore,gestore),
+(0,44.5202708,11.2943895999999,'Via Del Triumvirato',NULL,'Bologna','BO','Giulio Barbieri Spa',NULL),
+(1,44.5090092526173,11.3406603507874,'Via Aristotile Fioravanti',NULL,'Bologna','BO',NULL,'Enel'),
+(2,44.355525,11.707358,'Viale Caterina Sforza',NULL,'Imola','BO',NULL,'Hera'),
+(3,44.5091594,11.3625823,'Viale Aldo Moro',NULL,'Bologna','BO',NULL,NULL),
+(4,44.356756,11.7180605,'Via Mentana',NULL,'Imola','BO',NULL,'Hera'),
+(5,44.529,11.42039,'Via San Donato',NULL,'Quarto Inferiore','BO',NULL,'Enel'),
+(6,44.359997,11.719758,'Piazza Alessandro Bianconcini',NULL,'Imola','BO',NULL,'Hera'),
+(7,44.347442,11.715598,'Via Amedeo Tabanelli',NULL,'Imola','BO',NULL,'Hera'),
+(8,44.357353,11.716578,'Via Aspromonte',NULL,'Imola','BO',NULL,'Hera'),
+(9,44.362775,11.69051,'Via Belvedere',NULL,'Imola','BO',NULL,'Hera'),
+(10,44.3716726,11.7044098,'Via Casalegno',NULL,'Imola','BO',NULL,'Hera'),
+(11,44.372722,11.723088,'Via Ruggiero Grieco',NULL,'Imola','BO',NULL,'Hera'),
+(12,44.356971,11.717129,'Viale Andrea Costa',NULL,'Imola','BO',NULL,'Hera'),
+(13,44.3528337,11.7087493,'Viale Aurelio Saffi',NULL,'Imola','BO',NULL,'Hera'),
+(14,44.361207,11.720232,'Via Cogne',NULL,'Imola','BO',NULL,'Hera'),
+(15,44.359848,11.6930156999999,'Via Pola',NULL,'Imola','BO',NULL,NULL),
+(16,44.8053207,11.5848095,'Via Bologna',NULL,'Ferrara',FE,NULL,NULL),
+(17,44.6484037,10.9284772999999,'Piazza Roma',NULL,'Modena','MO',NULL,'Hera'),
+(18,44.6571494,10.9290874000001,'Via Manfredo Fanti',NULL,'Modena','MO',NULL,'Hera'),
+(19,44.6503658,10.9234901,'Parco Novi Sad',NULL,'Modena','MO',NULL,'Hera'),
+(20,44.6482598,10.8616728,'Via Emilia Ovest',NULL,'Modena','MO',NULL,'Hera'),
+(21,44.6515166,10.9415203,'Viale Ciro Medettagliti',NULL,'Modena','MO',NULL,'Hera'),
+(22,44.6349256,10.9309614,'Piazza Alessandro Manzoni',NULL,'Modena','MO',NULL,NULL),
+(23,44.6380183992928,10.9420368687867,'Via Del Pozzo',NULL,'Modena','MO',NULL,NULL),
+(24,44.6305372,10.9505701,'Via Glauco Gottardi',NULL,'Modena','MO',NULL,'Hera'),
+(25,44.6445331,10.9549736,'Viale Dello Sport',NULL,'Modena','MO',NULL,'Hera'),
+(26,44.6583228,10.9164322,'Via Cesare Razzaboni',NULL,'Modena','MO',NULL,'Hera'),
+(27,44.6362495,10.9393095,'Viale Marzabotto',NULL,'Modena','MO',NULL,'Hera'),
+(28,44.6362495,10.9393095,'Viale Marzabotto',NULL,'Modena','MO',NULL,'Hera'),
+(29,44.6488317,10.920205,'Viale Berengario Jacopo',NULL,'Modena','MO',NULL,'Hera'),
+(30,44.6538425,10.9310661,'Piazza Dante Alighieri',NULL,'Modena','MO',NULL,NULL),
+(31,45.0539077,9.69528279999997,'Via Camillo Cavour',NULL,'Piacenza','PC',NULL,'Enel'),
+(32,45.0540261,9.69545900000003,'Via Camillo Benso Cavour',NULL,'Piacenza','PC',NULL,'Enel'),
+(33,45.044065,9.70427500000005,'Via C. Calciati',NULL,'Piacenza','PC',NULL,'Enel'),
+(34,44.6974299,10.6363127,'Piazza Del Tricolore 73PX',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(35,44.6974299,10.6363127,'Piasa Dal Popol Giost',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(36,44.700365,10.643151,'Piazzale Europa',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(37,44.6958224,10.637503,'Via Giorgione',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(38,44.761513,10.674442,'Via Guglielmo Marconi',NULL,'Bagnolo In Piano','RE',NULL,'Enel'),
+(39,44.6919178,10.6350543,'Via Nobili',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(40,44.7404085,10.6025844000001,'Via Alberto Pansa 119PX',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(41,44.6973043960399,10.6425724100648,'Via Eritrea',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(42,44.7008693842591,10.6320767158692,'Viale Nobili',NULL,'Reggio Emilia','RE',NULL,'Enel'),
+(43,44.6998250043043,10.6265352079346,'Piazza Gioberti',NULL,'Reggio Emilia','RE','Enel','Enel'),
+(44,44.6951755,10.637203,'Via San Martino',NULL,'Reggio Emilia','RE','Enel','Enel'),
+(45,44.6981095342531,10.6310569404754,'Via Vittorio Veneto',NULL,'Reggio Emilia','RE','Enel','Enel'),
+(46,44.0707264,12.5764555000001,'Viale Beccadelli',NULL,'Rimini','RN',NULL,'Enel'),

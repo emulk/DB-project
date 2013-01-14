@@ -1,134 +1,137 @@
-CREATE TABLE "Produttore"
+CREATE TABLE produttore
 (
-  "Nome" character varying NOT NULL,
-  CONSTRAINT "Produttore_pkey" PRIMARY KEY ("Nome" )
+  nome character varying NOT NULL,
+  CONSTRAINT produttore_pkey PRIMARY KEY (nome )
 );
 
-CREATE TABLE "Veicolo"
+CREATE TABLE veicolo
 (
-  "VolumeCarico" numeric(10,2),
-  "Posti" numeric(3,0),
-  "Lunghezza" numeric(10,2),
-  "Larghezza" numeric(10,2),
-  "Altezza" numeric(10,2),
-  "Porte" numeric(2,0),
-  "Nome" character varying NOT NULL,
-  "Prezzo" numeric(10,2),
-  "Potenza" numeric(10,2),
-  "Consumi" numeric(10,2),
-  "Accelerazione" numeric(10,2),
-  "VelocitaMax" numeric(10,2),
-  "RaggioSterzata" numeric(10,2),
-  "Ricarica" numeric(10,2),
-  "Autonomia" numeric(10,2),
-  "Tipo" character varying NOT NULL,
-  "Sottotipo" character varying,
-  "Produttore" character varying NOT NULL,
-  "AnnoProduzione" numeric(5,0),
-  CONSTRAINT "Veicolo_pkey" PRIMARY KEY ("Nome" ),
-  CONSTRAINT "Produttore" FOREIGN KEY ("Produttore")
-      REFERENCES "Produttore" ("Nome") MATCH SIMPLE
+
+  volumecarico numeric(10,2),
+  posti numeric(3,0),
+  lunghezza numeric(10,2),
+  larghezza numeric(10,2),
+  altezza numeric(10,2),
+  peso numeric(10,2),
+  porte numeric(2,0),
+  nome character varying NOT NULL,
+  prezzo numeric(10,2),
+  potenza numeric(10,2),
+  consumi numeric(10,2),
+  accelerazione numeric(10,2),
+  velocitamax numeric(10,2),
+  raggiosterzata numeric(10,2),
+  ricarica numeric(10,2),
+  autonomia numeric(10,2),
+  tipo character varying NOT NULL,
+  sottotipo character varying,
+  produttore character varying NOT NULL,
+  website character varying,
+  annoproduzione numeric(5,0),
+  CONSTRAINT veicolo_pkey PRIMARY KEY (nome ),
+  CONSTRAINT produttore foreign key (produttore)
+      REFERENCES produttore (nome) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
-CREATE TABLE "Colonnina"
+CREATE TABLE colonnina
 (
-  "Id" character varying NOT NULL,
-  "Latitudine" numeric(10,2),
-  "Longitudine" numeric(10,2),
-  "Via" character varying NOT NULL,
-  "Civico" character varying NOT NULL,
-  "Comune" character varying NOT NULL,
-  "Provincia" character varying NOT NULL,
-  "Cap" character varying NOT NULL,
-  "Gestore" character varying,
-  "Costruttore" character varying,
-  CONSTRAINT "Colonnina_pkey" PRIMARY KEY ("Id" )
+  id character varying NOT NULL,
+  latitudine numeric(10,2) NOT NULL,
+  longitudine numeric(10,2) NOT NULL,
+  via character varying,
+  civico character varying,
+  comune character varying,
+  provincia character varying,
+  cap character varying,
+  gestore character varying,
+  costruttore character varying,
+  CONSTRAINT colonnina_pkey PRIMARY KEY (id )
 );
 
-CREATE TABLE "Concessionario"
+CREATE TABLE concessionario
 (
-  "Id" character varying NOT NULL,
-  "Nome" character varying NOT NULL,
-  "Latitudine" numeric(10,2),
-  "Longitudine" numeric(10,2),
-  "Via" character varying NOT NULL,
-  "Civico" character varying NOT NULL,
-  "Comune" character varying NOT NULL,
-  "Provincia" character varying NOT NULL,
-  "Cap" character varying NOT NULL,
-  "Fax" character varying,
-  "Web" character varying,
-  "Telefono" character varying,
-  CONSTRAINT "Concessionario_pkey" PRIMARY KEY ("Id" )
+  id character varying NOT NULL,
+  nome character varying NOT NULL,
+  latitudine numeric(10,2),
+  longitudine numeric(10,2),
+  via character varying NOT NULL,
+  civico character varying NOT NULL,
+  comune character varying NOT NULL,
+  provincia character varying NOT NULL,
+  cap character varying NOT NULL,
+  fax character varying,
+  web character varying,
+  telefono character varying,
+  CONSTRAINT concessionario_pkey PRIMARY KEY (id )
 );
 
-CREATE TABLE "Utente"
+CREATE TABLE utente
 (
-  "Username" character varying NOT NULL,
-  "Email" character varying NOT NULL,
-  "Latitudine" numeric(10,2),
-  "Longitudine" numeric(10,2),
-  CONSTRAINT "Utente_pkey" PRIMARY KEY ("Username" )
+  username character varying NOT NULL,
+  email character varying NOT NULL,
+  latitudine numeric(10,2),
+  longitudine numeric(10,2),
+  CONSTRAINT utente_pkey PRIMARY KEY (username )
 );
 
-CREATE TABLE "Possesso"
+CREATE TABLE possesso
 (
-  "Veicolo" character varying NOT NULL,
-  "Utente" character varying NOT NULL,
-  CONSTRAINT "Possesso_pkey" PRIMARY KEY ("Veicolo" , "Utente" ),
-  CONSTRAINT "Possesso_Utente" FOREIGN KEY ("Utente")
-      REFERENCES "Utente" ("Username") MATCH SIMPLE
+  veicolo character varying NOT NULL,
+  utente character varying NOT NULL,
+  CONSTRAINT possesso_pkey PRIMARY KEY (veicolo , utente ),
+  CONSTRAINT possesso_utente foreign key (utente)
+      REFERENCES utente (username) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION,
-  CONSTRAINT "Possesso_Veicolo" FOREIGN KEY ("Veicolo")
-      REFERENCES "Veicolo" ("Nome") MATCH SIMPLE
+  CONSTRAINT possesso_veicolo foreign key (veicolo)
+      REFERENCES veicolo (nome) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
-CREATE TABLE "Recensione"
+CREATE TABLE recensione
 (
-  "Veicolo" character varying NOT NULL,
-  "Utente" character varying NOT NULL,
-  "Data" character varying NOT NULL,
-  "Likes" numeric,
-  "Dislikes" numeric,
-  "Voto" numeric(2,0) NOT NULL,
-  CONSTRAINT "Recensione_pkey" PRIMARY KEY ("Utente" , "Veicolo" , "Data" ),
-  CONSTRAINT "Recensione_Utente" FOREIGN KEY ("Utente")
-      REFERENCES "Utente" ("Username") MATCH SIMPLE
+  veicolo character varying NOT NULL,
+  utente character varying NOT NULL,
+  data character varying NOT NULL,
+  likes numeric,
+  dislikes numeric,
+  voto numeric(2,0) NOT NULL,
+  CONSTRAINT recensione_pkey PRIMARY KEY (utente , veicolo , data ),
+  CONSTRAINT recensione_utente foreign key (utente)
+      REFERENCES utente (username) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION,
-  CONSTRAINT "Recensione_Veicolo" FOREIGN KEY ("Veicolo")
-      REFERENCES "Veicolo" ("Nome") MATCH SIMPLE
+  CONSTRAINT recensione_veicolo foreign key (veicolo)
+      REFERENCES veicolo (nome) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
-CREATE TABLE "Segnalazione"
+CREATE TABLE segnalazione
 (
-  "Colonnina" character varying NOT NULL,
-  "Utente" character varying NOT NULL,
-  "Data" character varying NOT NULL,
-  "Utile" numeric,
-  "Inutile" numeric,
-  "Tipo" character varying NOT NULL,
-  "Descrizione" character varying NOT NULL,
-  CONSTRAINT "Segnalazine_pkey" PRIMARY KEY ("Utente" , "Colonnina" , "Data" ),
-  CONSTRAINT "Segnalazione_Colonnina" FOREIGN KEY ("Colonnina")
-      REFERENCES "Colonnina" ("Id") MATCH SIMPLE
+  colonnina character varying NOT NULL,
+  utente character varying NOT NULL,
+  data character varying NOT NULL,
+  utile numeric,
+  inutile numeric,
+  tipo character varying NOT NULL,
+  descrizione character varying NOT NULL,
+  CONSTRAINT segnalazine_pkey PRIMARY KEY (utente , colonnina , data ),
+  CONSTRAINT segnalazione_colonnina foreign key (colonnina)
+      REFERENCES colonnina (id) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION,
-  CONSTRAINT "Segnalazione_Utente" FOREIGN KEY ("Utente")
-      REFERENCES "Utente" ("Username") MATCH SIMPLE
+  CONSTRAINT segnalazione_utente foreign key (utente)
+      REFERENCES utente (username) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
-CREATE TABLE "Vendita"
+CREATE TABLE vendita
 (
-  "Veicolo" character varying NOT NULL,
-  "Concessionario" character varying NOT NULL,
-  CONSTRAINT "Vendita_pkey" PRIMARY KEY ("Veicolo" , "Concessionario" ),
-  CONSTRAINT "Vendita_Concessionario" FOREIGN KEY ("Concessionario")
-      REFERENCES "Concessionario" ("Id") MATCH SIMPLE
+  veicolo character varying NOT NULL,
+  concessionario character varying NOT NULL,
+  CONSTRAINT vendita_pkey PRIMARY KEY (veicolo , concessionario ),
+  CONSTRAINT vendita_concessionario foreign key (concessionario)
+      REFERENCES concessionario (id) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION,
-  CONSTRAINT "Vendita_Veicolo" FOREIGN KEY ("Veicolo")
-      REFERENCES "Veicolo" ("Nome") MATCH SIMPLE
+  CONSTRAINT vendita_veicolo foreign key (veicolo)
+      REFERENCES veicolo (nome) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
 );
