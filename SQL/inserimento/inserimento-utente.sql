@@ -1,4 +1,4 @@
-INSERT INTO possesso (username, veicolo, latitudine, longitudine)
+INSERT INTO utente (username, email, latitudine, longitudine)
 VALUES
 	('marco', 'marco@unibo.it', 44.50203, 11.343801),
 	('donato', 'donato@unibo.it', 44.345826, 11.728223),
