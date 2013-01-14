@@ -11,4 +11,6 @@ VALUES
 	('fabio', 'fabio@unibo.it', 44.69810, 11.80903),
 	('giulio', 'giulio@gmail.com', 44.391782, 11.528924),
 	('paolo', 'paolo@hotmail.it', 44.618847, 11.226724),
-	('andrea', 'andre@gmail.com', 44.59810, 10.45182);
+	('andrea', 'andre@gmail.com', 44.59810, 10.45182),
+	('daniel','dany@gmail.com', 44.625190, 10.811127),
+	('sebastiano','seb@hotmail.it', 44.278915, 11.814672);
