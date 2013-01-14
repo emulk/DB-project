@@ -1,5 +1,5 @@
-INSERT INTO "Concessionario"("Id","Nome","Via","Civico","Comune","Provincia","Cap","Web","Telefono","Fax","Latitudine","Longitudine")
-	values
+INSERT INTO concessionario(id,nome,via,civico,comune,provincia,cap,web,telefono,fax,latitudine,longitudine)
+	VALUES
 		(1,'DRAGHETTI SRL','VIA FERRARESE', '215' ,'BOLOGNA','BO','40128','http://www.renault.it/concessionaria/draghetti','051/323040','051/6388611',44.50959,11.35471),
 		(2,'RENO M.COMPANY SRL','VIA DE PISIS','16','BOLOGNA','BO','40133','http://www.renault.it/concessionaria/renomotorcompany','051/6198955','051/6198956',44.50108 ,11.29104),
 		(3,'AUTEC SRL','VIA S.DONATO','3/2','QUARTO INFERIORE','BO','40057','http://www.renault.it/concessionaria/autec','051/780018','051/780766',44.51093,11.38610),
