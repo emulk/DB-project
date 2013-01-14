@@ -96,6 +96,7 @@ CREATE TABLE recensione
   likes numeric,
   dislikes numeric,
   voto numeric(2,0) NOT NULL,
+  posseduto boolean SET DEFAULT false,
   CONSTRAINT recensione_pkey PRIMARY KEY (utente , veicolo , data ),
   CONSTRAINT recensione_utente foreign key (utente)
       REFERENCES utente (username) MATCH SIMPLE
