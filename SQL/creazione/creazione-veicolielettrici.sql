@@ -36,9 +36,9 @@ CREATE TABLE veicolo
 
 CREATE TABLE colonnina
 (
-  id character varying NOT NULL,
-  latitudine numeric(10,2) NOT NULL,
-  longitudine numeric(10,2) NOT NULL,
+  id numeric,
+  latitudine numeric(10,8) NOT NULL,
+  longitudine numeric(10,8) NOT NULL,
   via character varying,
   civico character varying,
   comune character varying,
@@ -51,10 +51,10 @@ CREATE TABLE colonnina
 
 CREATE TABLE concessionario
 (
-  id character varying NOT NULL,
+  id numeric,
   nome character varying NOT NULL,
-  latitudine numeric(10,2),
-  longitudine numeric(10,2),
+  latitudine numeric(10,8),
+  longitudine numeric(10,8),
   via character varying NOT NULL,
   civico character varying NOT NULL,
   comune character varying NOT NULL,
