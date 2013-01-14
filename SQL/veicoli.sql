@@ -1,25 +1,34 @@
-drop table if exists auto;
-create table auto(
-	website character(20),
-	Nome character(20) not null,
-	Tipo character(20) not null,
-	Anno integer,
-	Posti integer,
-	Porte integer,
-	cargo_space integer,
-	Peso integer,
-	Lunghezza integer not null,
-	Larghezza integer not null,
-	Altezza integer not null,
-	Diametro integer,
-	Tecnologia character(20) not null,
-	Caricamento integer not null,
-	range integer,
-	Velocita integer,
-	Accelerazione integer,
-	Potenza integer,
-	Consumi integer
 
+
+CREATE TABLE "Veicolo"
+(
+	"web" CHARACTER,
+	"Nome" CHARACTER VARYING NOT NULL,
+	"Tipo" CHARACTER VARYING NOT NULL,
+	 "AnnoProduzione" NUMERIC(5,0),
+	 "Posti" Numeric(3,0),
+	 "Porte" NUMERIC(2,0),
+	"VolumeCarico" NUMERIC(10,2),
+	"Peso" NUMERIC(2,0),
+	"Lunghezza" NUMERIC(10,2),
+  "Larghezza" NUMERIC(10,2),
+  "Altezza" NUMERIC(10,2),
+  "RaggioSterzata" NUMERIC(10,2),
+  "Tecnologia" CHARACTER,
+  "Ricarica" NUMERIC(10,2),
+   "Autonomia" NUMERIC(10,2),
+   "VelocitaMax" NUMERIC(10,2),
+   "Accelerazione" NUMERIC(10,2),
+  "Potenza" NUMERIC(10,2),
+  "Consumi" NUMERIC(10,2),
+  
+  "Sottotipo" CHARACTER VARYING,
+  "Produttore" CHARACTER VARYING NOT NULL,
+ 
+  CONSTRAINT "Veicolo_pkey" PRIMARY KEY ("Nome" ),
+  CONSTRAINT "Produttore" FOREIGN KEY ("Produttore")
+      REFERENCES "Produttore" ("Nome") MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
 );
 
 insert into auto (website, Nome,Tipo, Anno, Costo, Posti, Porte, Cargo_space, Peso, Lunghezza, Larghezza, Altezza, Diametro)

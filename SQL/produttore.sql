@@ -1,8 +1,9 @@
-drop table if exists produttore;
-create table produttore (
-	nome charcater(20) not null
-)
-
+CREATE TABLE "Produttore"
+(
+  "Nome" CHARACTER VARYING NOT NULL,
+  CONSTRAINT "Produttore_pkey" PRIMARY KEY ("Nome" )
+);
+ 
 
 insert into produttore(nome)
 values
