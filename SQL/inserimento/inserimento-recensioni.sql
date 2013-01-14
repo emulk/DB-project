@@ -1,4 +1,4 @@
-ISERT INTO recensione (veicolo, utente, data, likes, dislikes, voto, testo, posseduto)
+INSERT INTO recensione (veicolo, utente, data, likes, dislikes, voto, testo, posseduto)
 VALUES
 	('BMW i3', 'Orgest', '12/01/2013', 1, 0, 8, 'Questa e solo una prova', 0),
 	('E-MEGA', 'Marco', '04/01/2013', 1, 0 , 6, 'Questa macchina e fantastica', 0),
