@@ -8,4 +8,7 @@ VALUES
 	('giuseppe', 'giuseppe@unibo.it', 44.14854, 12.07191),
 	('cristina', 'cristina@unibo.it', 44.65137, 10.58521),
 	('vito', 'vito@unibo.it', 44.73433, 11.29527),
-	('fabio', 'fabio@unibo.it', 44.69810, 11.80903);
+	('fabio', 'fabio@unibo.it', 44.69810, 11.80903),
+	('giulio', 'giulio@gmail.com', 44.391782, 11.528924),
+	('paolo', 'paolo@hotmail.it', 44.618847, 11.226724),
+	('andrea', 'andre@gmail.com', 44.59810, 10.45182);
