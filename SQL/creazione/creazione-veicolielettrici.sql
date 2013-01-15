@@ -96,7 +96,7 @@ CREATE TABLE recensione
   likes numeric,
   dislikes numeric,
   voto numeric(2,0) NOT NULL,
-  posseduto boolean SET DEFAULT false,
+  posseduto boolean DEFAULT false,
   testo character varying NOT NULL,
   CONSTRAINT recensione_pkey PRIMARY KEY (utente , veicolo , data ),
   CONSTRAINT recensione_utente foreign key (utente)
@@ -109,7 +109,7 @@ CREATE TABLE recensione
 
 CREATE TABLE segnalazione
 (
-  colonnina character varying NOT NULL,
+  colonnina numeric NOT NULL,
   utente character varying NOT NULL,
   data character varying NOT NULL,
   utile numeric,
@@ -128,7 +128,7 @@ CREATE TABLE segnalazione
 CREATE TABLE vendita
 (
   veicolo character varying NOT NULL,
-  concessionario character varying NOT NULL,
+  concessionario numeric NOT NULL,
   CONSTRAINT vendita_pkey PRIMARY KEY (veicolo , concessionario ),
   CONSTRAINT vendita_concessionario foreign key (concessionario)
       REFERENCES concessionario (id) MATCH SIMPLE

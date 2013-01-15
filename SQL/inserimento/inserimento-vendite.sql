@@ -13,4 +13,5 @@ VALUES
 	('Wheego Whip', 42),
 	('RAV4 EV', 38),
 	('THINK City', 33),
+	('THINK City', 35),
 	('Tazzari Zero', 22);
