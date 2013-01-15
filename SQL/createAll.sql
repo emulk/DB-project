@@ -70,8 +70,8 @@ CREATE TABLE utente
 (
   username character varying NOT NULL,
   email character varying NOT NULL,
-  latitudine numeric(10,2),
-  longitudine numeric(10,2),
+  latitudine numeric(10,8),
+  longitudine numeric(10,8),
   CONSTRAINT utente_pkey PRIMARY KEY (username )
 );
 
